@@ -1,1 +1,1 @@
-# admindashboard
+This is an Admin Dashboard project by Birkan Kara.
