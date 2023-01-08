@@ -11,13 +11,15 @@
 .sidebar {
     grid-area: sidebar;
     background-color: rgb(143, 143, 255);
-    ;
+
 }
 
 .header {
     grid-area: header;
     background-color: #f1f1f1;
     display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 
@@ -27,20 +29,29 @@
 
 /* Header */
 
-.topnav {
+.userinfo {
+    display: flex;
+}
+
+.searchbar {
+    padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 320px;
-    grid-row: 1;
-    grid-column: 1 / -1;
-    padding: 1rem 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+#belllogo {
+    margin-right: 1em;
+    margin-top: 1em
 }
 
 
-.userinfo {
+#user_id {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.userwelcome {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0.25rem 1.25rem;
-    padding-left: 0;
-    padding-right: 0;
+    gap: 20px;
 }
